@@ -129,7 +129,7 @@ const FAQ = () => {
                     <div className="mr-4 p-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white">
                       {item.icon}
                     </div>
-                    <h3 className="text-xl font-semibold text-orange-600">{item.question}</h3>
+                    <h3 className="text-xl font-semibold text-yellow-600">{item.question}</h3>
                   </div>
                   <motion.span
                     animate={{ rotate: openIndex === index ? 180 : 0 }}
