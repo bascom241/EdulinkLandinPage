@@ -52,15 +52,17 @@ const NavBar = () => {
               <User className="w-5 h-5 mr-2" />
               Login
             </button>
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition duration-300 shadow-md">
-              <Link href="/app">
-                Get Started
-              </Link>
-            </button>
+            <a
+              href="/app"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition duration-300 shadow-md"
+            >
+              Get Started
+            </a>
+
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-gray-700 focus:outline-none"
             onClick={toggleMobileMenu}
           >
@@ -79,8 +81,8 @@ const NavBar = () => {
           <div className="bg-white shadow-xl rounded-b-2xl p-6 animate-slideDown">
             <ul className="space-y-4">
               <li>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-800 font-medium"
                   onClick={toggleMobileMenu}
                 >
@@ -88,8 +90,8 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-800 font-medium"
                   onClick={toggleMobileMenu}
                 >
@@ -97,8 +99,8 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-800 font-medium"
                   onClick={toggleMobileMenu}
                 >
@@ -106,8 +108,8 @@ const NavBar = () => {
                 </a>
               </li>
               <li>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="block py-3 px-4 rounded-lg hover:bg-gray-100 text-gray-800 font-medium"
                   onClick={toggleMobileMenu}
                 >
