@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import { Menu, X, User, LogIn } from 'lucide-react'
+import Link from 'next/link'
 
 const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -52,7 +53,9 @@ const NavBar = () => {
               Login
             </button>
             <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition duration-300 shadow-md">
-              Get Started
+              <Link href="/app">
+                Get Started
+              </Link>
             </button>
           </div>
 
